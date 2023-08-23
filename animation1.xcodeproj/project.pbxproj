@@ -11,6 +11,7 @@
 		806EA0482A9239E2006A2D82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EA0472A9239E2006A2D82 /* ContentView.swift */; };
 		806EA04A2A9239E4006A2D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806EA0492A9239E4006A2D82 /* Assets.xcassets */; };
 		806EA04D2A9239E4006A2D82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806EA04C2A9239E4006A2D82 /* Preview Assets.xcassets */; };
+		806EA0542A923B61006A2D82 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EA0532A923B61006A2D82 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		806EA0472A9239E2006A2D82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		806EA0492A9239E4006A2D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806EA04C2A9239E4006A2D82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		806EA0532A923B61006A2D82 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				806EA0452A9239E2006A2D82 /* animation1App.swift */,
 				806EA0472A9239E2006A2D82 /* ContentView.swift */,
+				806EA0532A923B61006A2D82 /* LoginView.swift */,
 				806EA0492A9239E4006A2D82 /* Assets.xcassets */,
 				806EA04B2A9239E4006A2D82 /* Preview Content */,
 			);
@@ -109,6 +112,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 806EA0392A9239E2006A2D82;
 			productRefGroup = 806EA0432A9239E2006A2D82 /* Products */;
@@ -137,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806EA0542A923B61006A2D82 /* LoginView.swift in Sources */,
 				806EA0482A9239E2006A2D82 /* ContentView.swift in Sources */,
 				806EA0462A9239E2006A2D82 /* animation1App.swift in Sources */,
 			);
