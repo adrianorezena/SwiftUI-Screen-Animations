@@ -1,6 +1,5 @@
 //
 //  LoginView.swift
-//  animation1
 //
 //  Created by Adriano Rezena on 20/08/23.
 //
@@ -108,7 +107,7 @@ extension LoginView {
                     .animation(Ani.bgText.animation, value: shouldAnimate)
                 }
                 .edgesIgnoringSafeArea(.top)
-                .offset(shouldAnimate ? .zero : CGSize(width: 0, height: -150))
+                .offset(shouldAnimate ? .zero : CGSize(width: 0, height: -(size.height / 2.5)))
                 .opacity(shouldAnimate ? 1 : 0)
                 .animation(Ani.bgImage.animation, value: shouldAnimate)
         }
@@ -137,8 +136,8 @@ extension LoginView {
         .padding(.vertical, 40)
         .background(
             RoundedRectangle(cornerRadius: 8)
-                .fill(Color.white)
-                .shadow(color: .black.opacity(0.5), radius: 10, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
+                .fill(Color.background1)
+                .shadow(color: Color.shadow1, radius: 10, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
         )
         .padding(16)
         .offset(shouldAnimate ? .zero : CGSize(width: 0, height: 100))
@@ -151,7 +150,7 @@ extension LoginView {
     func titleView() -> some View {
         Text(Strings.popupTitle.rawValue)
             .font(.title)
-            .foregroundStyle(.primary)
+            .foregroundStyle(Color.text1)
     }
     
     @ViewBuilder
@@ -194,7 +193,7 @@ extension LoginView {
             }
         )
         .frame(height: 40)
-        .foregroundStyle(.blue)
+        .foregroundStyle(Color.button1)
         .offset(shouldAnimate ? .zero : CGSize(width: 0, height: -50))
         .opacity(shouldAnimate ? 1 : 0)
         .animation(Ani.forgotButton.animation, value: shouldAnimate)
@@ -213,7 +212,7 @@ extension LoginView {
         .frame(height: 60)
         .background(
             RoundedRectangle(cornerRadius: 8)
-                .fill(Color.blue)
+                .fill(Color.button1)
         )
         .foregroundStyle(.white)
         .offset(shouldAnimate ? .zero : CGSize(width: 0, height: -50))
@@ -231,7 +230,7 @@ extension LoginView {
                 label: {
                     Text(Strings.signupButton.rawValue)
                         .bold()
-                        .foregroundStyle(.blue)
+                        .foregroundStyle(Color.button1)
                 }
             )
             .foregroundStyle(.black)

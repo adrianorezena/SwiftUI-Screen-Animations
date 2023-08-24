@@ -1,6 +1,5 @@
 //
 //  ContentView.swift
-//  animation1
 //
 //  Created by Adriano Rezena on 20/08/23.
 //

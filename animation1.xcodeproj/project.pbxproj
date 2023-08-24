@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80667A0B2A97650C00275C1D /* Image+get.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80667A0A2A97650C00275C1D /* Image+get.swift */; };
+		80667A0D2A9770BE00275C1D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80667A0C2A9770BE00275C1D /* Color+Extensions.swift */; };
 		806EA0462A9239E2006A2D82 /* animation1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EA0452A9239E2006A2D82 /* animation1App.swift */; };
 		806EA0482A9239E2006A2D82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EA0472A9239E2006A2D82 /* ContentView.swift */; };
 		806EA04A2A9239E4006A2D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806EA0492A9239E4006A2D82 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		80667A0A2A97650C00275C1D /* Image+get.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+get.swift"; sourceTree = "<group>"; };
+		80667A0C2A9770BE00275C1D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		806EA0422A9239E2006A2D82 /* animation1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806EA0452A9239E2006A2D82 /* animation1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation1App.swift; sourceTree = "<group>"; };
 		806EA0472A9239E2006A2D82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				80B4A2122A96B9E900A3D124 /* LocalizedStrings.swift */,
 				80667A0A2A97650C00275C1D /* Image+get.swift */,
+				80667A0C2A9770BE00275C1D /* Color+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				806EA0542A923B61006A2D82 /* LoginView.swift in Sources */,
 				806EA0482A9239E2006A2D82 /* ContentView.swift in Sources */,
 				806EA0462A9239E2006A2D82 /* animation1App.swift in Sources */,
+				80667A0D2A9770BE00275C1D /* Color+Extensions.swift in Sources */,
 				80B4A2102A96B8FB00A3D124 /* LoginView+Strings.swift in Sources */,
 				80B4A2132A96B9E900A3D124 /* LocalizedStrings.swift in Sources */,
 			);
