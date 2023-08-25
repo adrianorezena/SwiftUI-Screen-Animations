@@ -46,6 +46,8 @@ struct LoginView: View {
     }
 
     @State var shouldAnimate: Bool = false
+    @State var login: String = ""
+    @State var password: String = ""
     
     var body: some View {
         mainPage()
@@ -155,7 +157,7 @@ extension LoginView {
     
     @ViewBuilder
     func loginTextField() -> some View {
-        TextField(Strings.popupPlaceholderEmail.rawValue, text: .constant(""))
+        TextField(Strings.popupPlaceholderEmail.rawValue, text: $login)
             .padding(8)
             .padding(.vertical, 8)
             .background(
@@ -169,7 +171,7 @@ extension LoginView {
     
     @ViewBuilder
     func passwordTextField() -> some View {
-        SecureField(Strings.popupPlaceholderPassword.rawValue, text: .constant(""))
+        SecureField(Strings.popupPlaceholderPassword.rawValue, text: $password)
             .padding(8)
             .padding(.vertical, 8)
             .background(
@@ -214,6 +216,7 @@ extension LoginView {
             RoundedRectangle(cornerRadius: 8)
                 .fill(Color.button1)
         )
+        .contentShape(Rectangle())
         .foregroundStyle(.white)
         .offset(shouldAnimate ? .zero : CGSize(width: 0, height: -50))
         .opacity(shouldAnimate ? 1 : 0)
