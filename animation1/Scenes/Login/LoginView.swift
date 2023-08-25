@@ -252,7 +252,7 @@ struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView(shouldAnimate: true)
             .previewDisplayName("Static")
-            .environment(\.locale, .init(identifier: "pt"))
+            .environment(\.locale, .init(identifier: "en"))
         
         LoginView()
             .environment(\.locale, .init(identifier: "en"))
