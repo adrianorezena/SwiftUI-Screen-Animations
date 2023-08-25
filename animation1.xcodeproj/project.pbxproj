@@ -67,7 +67,6 @@
 				80B4A20D2A96B8DD00A3D124 /* Scenes */,
 				806EA0452A9239E2006A2D82 /* animation1App.swift */,
 				806EA0472A9239E2006A2D82 /* ContentView.swift */,
-				806EA0492A9239E4006A2D82 /* Assets.xcassets */,
 				806EA04B2A9239E4006A2D82 /* Preview Content */,
 			);
 			path = animation1;
@@ -111,6 +110,7 @@
 		80CAABB72A95904F0023461B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				806EA0492A9239E4006A2D82 /* Assets.xcassets */,
 				80B4A2112A96B96100A3D124 /* Helpers */,
 				80CAABB82A9590650023461B /* Localizable.xcstrings */,
 			);
