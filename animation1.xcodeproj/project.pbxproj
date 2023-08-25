@@ -63,11 +63,11 @@
 		806EA0442A9239E2006A2D82 /* animation1 */ = {
 			isa = PBXGroup;
 			children = (
+				80B4A2112A96B96100A3D124 /* Helpers */,
 				80CAABB72A95904F0023461B /* Resources */,
 				80B4A20D2A96B8DD00A3D124 /* Scenes */,
 				806EA0452A9239E2006A2D82 /* animation1App.swift */,
 				806EA0472A9239E2006A2D82 /* ContentView.swift */,
-				806EA04B2A9239E4006A2D82 /* Preview Content */,
 			);
 			path = animation1;
 			sourceTree = "<group>";
@@ -110,8 +110,8 @@
 		80CAABB72A95904F0023461B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				806EA04B2A9239E4006A2D82 /* Preview Content */,
 				806EA0492A9239E4006A2D82 /* Assets.xcassets */,
-				80B4A2112A96B96100A3D124 /* Helpers */,
 				80CAABB82A9590650023461B /* Localizable.xcstrings */,
 			);
 			path = Resources;
@@ -327,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"animation1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"animation1/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = YL3WUNX77R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -356,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"animation1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"animation1/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = YL3WUNX77R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
